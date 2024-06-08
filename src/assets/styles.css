@@ -1,0 +1,70 @@
+body {
+  font-size: 1.5em;
+}
+ul {
+  margin: auto;
+  width: 40%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  min-height: 40vh;
+
+  background-color: wheat;
+  border: double black 0.2em;
+}
+.itemList {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.buttons {
+  width: 2%;
+  float: left;
+  justify-content: space-between;
+}
+.checkboxes {
+  width: 2%;
+  margin-right: 0.1em;
+  float: left;
+}
+.text {
+  width: 85%;
+  float: left;
+  text-align: left;
+}
+
+/* Styl przycisku */
+button {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  background-color: #c9a2bf;
+  border: 0.1em solid black;
+  border-radius: 0.7em;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Dodajemy efekt przejścia dla zmian kolorów */
+}
+
+.buttons button:hover {
+  background-color: red;
+}
+.todoInput {
+  font-size: 1em;
+  margin: 0.5vw;
+  width: 15vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.todoButton {
+  margin: 0.5vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.todoButton:hover {
+  background-color: green;
+}
